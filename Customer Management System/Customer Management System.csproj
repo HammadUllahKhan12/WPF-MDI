@@ -1,0 +1,420 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{A0ADC762-F211-4C9B-B731-DFD80E4268F0}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Customer_Management_System</RootNamespace>
+    <AssemblyName>Customer Management System</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <WarningLevel>4</WarningLevel>
+    <IsWebBootstrapper>true</IsWebBootstrapper>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Web</InstallFrom>
+    <UpdateEnabled>true</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <InstallUrl>http://localhost:8080/</InstallUrl>
+    <CreateWebPageOnPublish>true</CreateWebPageOnPublish>
+    <WebPage>publish.htm</WebPage>
+    <ApplicationRevision>1</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>icon.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup />
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>4F2E3A16B466E8927CB56DE3CB01CD8397988124</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>Customer Management System_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>true</SignManifests>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.ReportSource, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Shared, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="ReachFramework" />
+    <Reference Include="sapbusinessobjects.wpf.viewer, Version=13.0.3500.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="SAPBusinessObjects.WPF.ViewerShared, Version=13.0.3500.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.SQLite, Version=1.0.97.0, Culture=neutral, PublicKeyToken=db937bc2d44ff139, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Libraries\System.Data.SQLite.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Printing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Windows.Controls.Ribbon" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Xaml">
+      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="WindowsBase" />
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="WindowsFormsIntegration" />
+    <Reference Include="WPF.MDI, Version=1.1.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Libraries\WPF.MDI.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+    <Compile Include="Entities\data_report.cs" />
+    <Compile Include="Entities\inv_rep.cs" />
+    <Compile Include="Entities\login.cs" />
+    <Compile Include="Entities\Sale_line.cs" />
+    <Compile Include="Entities\UserInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Entities\UserLoginData.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="report.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>report.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Report1.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Report1.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Report2.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Report2.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="UserInterface\UserControls\del_user.xaml.cs">
+      <DependentUpon>del_user.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UserInterface\UserControls\Find_user.xaml.cs">
+      <DependentUpon>Find_user.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UserInterface\UserControls\MainWindow.xaml.cs">
+      <DependentUpon>MainWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UserInterface\UserControls\Password.xaml.cs">
+      <DependentUpon>Password.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UserInterface\UserControls\rep_inv.xaml.cs">
+      <DependentUpon>rep_inv.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UserInterface\UserControls\reset_pass.xaml.cs">
+      <DependentUpon>reset_pass.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UserInterface\UserControls\sale.xaml.cs">
+      <DependentUpon>sale.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UserInterface\UserControls\supp2.xaml.cs">
+      <DependentUpon>supp2.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UserInterface\UserControls\supplier.xaml.cs">
+      <DependentUpon>supplier.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UserInterface\UserControls\ucNewDealer.xaml.cs">
+      <DependentUpon>ucNewDealer.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UserInterface\UserControls\ucPendings.xaml.cs">
+      <DependentUpon>ucPendings.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="UserInterface\UserControls\user_profile.xaml.cs">
+      <DependentUpon>user_profile.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UserInterface\UserControls\User_report.xaml.cs">
+      <DependentUpon>User_report.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UserInterface\UserControls\Utilities.cs" />
+    <Compile Include="App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Window1.xaml.cs">
+      <DependentUpon>Window1.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Window2.xaml.cs">
+      <DependentUpon>Window2.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Window3.xaml.cs">
+      <DependentUpon>Window3.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Window4.xaml.cs">
+      <DependentUpon>Window4.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="winLogin.xaml.cs">
+      <DependentUpon>winLogin.xaml</DependentUpon>
+    </Compile>
+    <Page Include="UserInterface\UserControls\del_user.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UserInterface\UserControls\Find_user.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UserInterface\UserControls\MainWindow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="UserInterface\UserControls\Password.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UserInterface\UserControls\rep_inv.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UserInterface\UserControls\reset_pass.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UserInterface\UserControls\sale.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UserInterface\UserControls\supp2.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UserInterface\UserControls\supplier.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UserInterface\UserControls\ucNewDealer.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="UserInterface\UserControls\ucPendings.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UserInterface\UserControls\user_profile.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UserInterface\UserControls\User_report.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Window1.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Window2.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Window3.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Window4.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="winLogin.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="report.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>report.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report1.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Report1.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report2.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Report2.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="Customer Management System_TemporaryKey.pfx" />
+    <None Include="Properties\DataSources\Entities.TransactionInfo.datasource" />
+    <None Include="Properties\DataSources\Entities.UserLoginData.datasource" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <AppDesigner Include="Properties\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.5">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.5 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="UserInterface\Images\about.png" />
+    <Resource Include="UserInterface\Images\addEmp.png" />
+    <Resource Include="UserInterface\Images\cascade.png" />
+    <Resource Include="UserInterface\Images\changepassword.png" />
+    <Resource Include="UserInterface\Images\changetheme.png" />
+    <Resource Include="UserInterface\Images\cleandatabase.png" />
+    <Resource Include="UserInterface\Images\closeallwindows.png" />
+    <Resource Include="UserInterface\Images\closeledgers.png" />
+    <Resource Include="UserInterface\Images\dealerreport.ico" />
+    <Resource Include="UserInterface\Images\deletealldealers.png" />
+    <Resource Include="UserInterface\Images\deletealltransactions.png" />
+    <Resource Include="UserInterface\Images\deleteallusers.png" />
+    <Resource Include="UserInterface\Images\deleteuserlogindata.png" />
+    <Resource Include="UserInterface\Images\exit.png" />
+    <Resource Include="UserInterface\Images\gl.png" />
+    <Resource Include="UserInterface\Images\help.png" />
+    <Resource Include="UserInterface\Images\horizontal.png" />
+    <Resource Include="UserInterface\Images\icon.ico" />
+    <Resource Include="UserInterface\Images\lockapplication.png" />
+    <Resource Include="UserInterface\Images\logout.png" />
+    <Resource Include="UserInterface\Images\monthlytransactionreport.png" />
+    <Resource Include="UserInterface\Images\options.png" />
+    <Resource Include="UserInterface\Images\pendings.png" />
+    <Resource Include="UserInterface\Images\procurement1.png" />
+    <Resource Include="UserInterface\Images\removeuser.png" />
+    <Resource Include="UserInterface\Images\save.png" />
+    <Resource Include="UserInterface\Images\searchEmp.png" />
+    <Resource Include="UserInterface\Images\transaction.png" />
+    <Resource Include="UserInterface\Images\transactionreport.png" />
+    <Resource Include="UserInterface\Images\userloginreport.png" />
+    <Resource Include="UserInterface\Images\vertical.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="UserInterface\Images\HEAD-5-Reasons-Selling-Online-Needs-Proper-Inventory-Management..png" />
+    <Resource Include="UserInterface\Images\desktop12.jpg" />
+    <Resource Include="UserInterface\Images\cust.png" />
+    <Resource Include="UserInterface\Images\reset_database.png" />
+    <Resource Include="UserInterface\Images\Card_terminal.png" />
+    <Resource Include="UserInterface\Images\Pulse-Secure.png" />
+    <Resource Include="UserInterface\Images\sme-hosting-feature-security.png" />
+    <Resource Include="UserInterface\Images\ssl-user-icon.png" />
+    <Resource Include="UserInterface\Images\swec.png" />
+    <Resource Include="UserInterface\Images\Check_Icon_Material.png" />
+    <Resource Include="UserInterface\Images\Graphicloads-100-Flat-Cart-add.ico" />
+    <Resource Include="UserInterface\Images\icon_fep_itad.png" />
+    <Resource Include="UserInterface\Images\lock_app.gif" />
+    <Resource Include="UserInterface\Images\logout12.png" />
+    <Resource Include="UserInterface\Images\close_red.png" />
+    <Resource Include="UserInterface\Images\help_main_12.png" />
+    <Resource Include="UserInterface\Images\info12.png" />
+    <Resource Include="UserInterface\Images\help12.ico" />
+    <Resource Include="UserInterface\Images\inven12.png" />
+    <Resource Include="UserInterface\Images\logo12.ico" />
+    <Resource Include="UserInterface\Images\add_emp12.png" />
+    <Resource Include="UserInterface\Images\remove_emp12.png" />
+    <Resource Include="UserInterface\Images\forgot-pass-icon-18350.png" />
+    <Resource Include="UserInterface\Images\reset_pass.png" />
+    <Resource Include="UserInterface\Images\U.png" />
+    <Resource Include="UserInterface\Images\emp123.png" />
+    <Resource Include="UserInterface\Images\user_emp.png" />
+    <Resource Include="UserInterface\Images\logo01.png" />
+    <Resource Include="UserInterface\Images\desktop5.jpg" />
+    <Resource Include="UserInterface\Images\close24.png" />
+    <Resource Include="icon.ico" />
+    <Content Include="Libraries\x64\SQLite.Interop.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Libraries\x86\SQLite.Interop.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Libraries\System.Data.SQLite.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Libraries\WPF.MDI.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{C0C07587-41A7-46C8-8FBD-3F9C8EBE2DDC}" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

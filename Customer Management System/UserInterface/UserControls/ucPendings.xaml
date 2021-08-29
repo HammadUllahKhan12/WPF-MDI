@@ -1,0 +1,138 @@
+﻿<UserControl x:Class="UserInterface.UserControls.ucPendings"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             Height="134.491" Width="1057.018">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="40" />
+        </Grid.RowDefinitions>
+
+
+        <Grid Grid.Row="0">
+            <GroupBox Header="" Margin="-10,-220,0,160">
+                <StackPanel Orientation="Horizontal">
+                    <Button Content="Refresh" x:Name="btnRefreshList" Style="{StaticResource MyButton}" Click="btnRefreshList_Click" Margin="5,6,5,7" Width="114" />
+                </StackPanel>
+            </GroupBox>
+        </Grid>
+        <!--obj1.CUST_NAME= reader["customerID"].ToString();
+                    obj1.SALE_ID = reader["SaleId"].ToString();
+
+                    obj1.P_ID = reader["pid"].ToString();
+                    obj1.PRO_PRICE = reader["productname"].ToString();
+                    obj1.PRO_NAME = reader["productprice"].ToString();
+
+                    obj1.QUANTITY = reader["quantity"].ToString();
+                    obj1.AMOUNT = reader["amount"].ToString();
+                    obj1.TIME_P = reader["timeOfPurchase"].ToString();-->
+
+        <Grid Grid.Row="1">
+            <DataGrid Name="dgPendings"  Background="LightBlue" LoadingRow="DataGrid_LoadingRow" Style="{StaticResource MyDataGrid}" Margin="-10,-162,0,-221">
+                <DataGrid.Columns>
+                    <DataGridTemplateColumn Header="Customer Name" Width="1*">
+                        <DataGridTemplateColumn.CellTemplate>
+                            <DataTemplate>
+                                <TextBlock Text="{Binding Path = CUST_NAME }" TextAlignment="Left"></TextBlock>
+                            </DataTemplate>
+                        </DataGridTemplateColumn.CellTemplate>
+                    </DataGridTemplateColumn>
+                    <DataGridTemplateColumn Header="Sale ID" Width="1*">
+                        <DataGridTemplateColumn.CellTemplate>
+                            <DataTemplate>
+                                <TextBlock Text="{Binding Path = SALE_ID}" TextAlignment="Left"></TextBlock>
+                            </DataTemplate>
+                        </DataGridTemplateColumn.CellTemplate>
+                    </DataGridTemplateColumn>
+                    <DataGridTemplateColumn Header="Product ID" Width="1*">
+                        <DataGridTemplateColumn.CellTemplate>
+                            <DataTemplate>
+                                <TextBlock TextAlignment="Right" Text="{Binding Path = P_ID}"></TextBlock>
+                            </DataTemplate>
+                        </DataGridTemplateColumn.CellTemplate>
+                    </DataGridTemplateColumn>
+                    <DataGridTemplateColumn Header="Product Prize" Width="1*">
+                        <DataGridTemplateColumn.CellTemplate>
+                            <DataTemplate>
+                                <TextBlock TextAlignment="Right" Text="{Binding Path = PRO_PRICE}"></TextBlock>
+                            </DataTemplate>
+                        </DataGridTemplateColumn.CellTemplate>
+                    </DataGridTemplateColumn>
+
+                    <DataGridTemplateColumn Header="Product Name" Width="1*">
+                        <DataGridTemplateColumn.CellTemplate>
+                            <DataTemplate>
+                                <TextBlock TextAlignment="Right" Text="{Binding Path = PRO_NAME}"></TextBlock>
+                            </DataTemplate>
+                        </DataGridTemplateColumn.CellTemplate>
+                    </DataGridTemplateColumn>
+
+                    <DataGridTemplateColumn Header="Quantity" Width="1*">
+                        <DataGridTemplateColumn.CellTemplate>
+                            <DataTemplate>
+                                <TextBlock TextAlignment="Right" Text="{Binding Path = QUANTITY}"></TextBlock>
+                            </DataTemplate>
+                        </DataGridTemplateColumn.CellTemplate>
+                    </DataGridTemplateColumn>
+                    <DataGridTemplateColumn Header="Amount" Width="1*">
+                        <DataGridTemplateColumn.CellTemplate>
+                            <DataTemplate>
+                                <TextBlock TextAlignment="Right" Text="{Binding Path = AMOUNT}"></TextBlock>
+                            </DataTemplate>
+                        </DataGridTemplateColumn.CellTemplate>
+                    </DataGridTemplateColumn>
+                    <DataGridTemplateColumn Header="Time Of Purchase" Width="1*">
+                        <DataGridTemplateColumn.CellTemplate>
+                            <DataTemplate>
+                                <TextBlock TextAlignment="Right" Text="{Binding Path = TIME_P}"></TextBlock>
+                            </DataTemplate>
+                        </DataGridTemplateColumn.CellTemplate>
+                    </DataGridTemplateColumn>
+                    <!--<DataGridTemplateColumn Header="Account Detail(s)" Width="1*">
+                        <DataGridTemplateColumn.CellTemplate>
+                            <DataTemplate>
+                                <TextBlock TextAlignment="Center">
+                                        <Hyperlink Name="linkAccountDetails" Click="linkAccountDetails_Click"> Account Detail(s)</Hyperlink>
+                                </TextBlock>
+                            </DataTemplate>
+                        </DataGridTemplateColumn.CellTemplate>
+                    </DataGridTemplateColumn>-->
+                    <!--<DataGridTemplateColumn Header="Close Ledger" Width="1*">
+                        <DataGridTemplateColumn.CellTemplate>
+                            <DataTemplate>
+                                <TextBlock TextAlignment="Center">
+                                    <Hyperlink Name="linkCloseLedger" Click="linkCloseLedger_Click"> Close Ledger </Hyperlink>
+                                </TextBlock>
+                            </DataTemplate>
+                        </DataGridTemplateColumn.CellTemplate>
+                    </DataGridTemplateColumn>-->
+                    <!--<DataGridTemplateColumn Header="Dealer Detail(s)" Width="1*">
+                        <DataGridTemplateColumn.CellTemplate>
+                            <DataTemplate>
+                                <TextBlock TextAlignment="Center">
+                                        <Hyperlink Name="linkDetails" Click="linkDetails_Click"> Dealer Detail(s)</Hyperlink>
+                                </TextBlock>
+                            </DataTemplate>
+                        </DataGridTemplateColumn.CellTemplate>
+                    </DataGridTemplateColumn>-->
+                    <!--<DataGridTemplateColumn Header="Remove Dealer" Width="1*">
+                            <DataGridTemplateColumn.CellTemplate>
+                                <DataTemplate>
+                                    <TextBlock TextAlignment="Center">
+                                        <Hyperlink Name="linkDelete" Click="linkDelete_Click"> Remove Dealer </Hyperlink>
+                                    </TextBlock>
+                                </DataTemplate>
+                            </DataGridTemplateColumn.CellTemplate>
+                        </DataGridTemplateColumn>-->
+                </DataGrid.Columns>
+            </DataGrid>
+        </Grid>
+
+        <!--list footers-->
+
+    </Grid>
+</UserControl>

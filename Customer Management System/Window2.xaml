@@ -1,0 +1,11 @@
+﻿<Window
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:Viewer="clr-namespace:SAPBusinessObjects.WPF.Viewer;assembly=SAPBusinessObjects.WPF.Viewer" x:Class="UserInterface.UserControls.Window2"
+        Title="Crystal Report of Customer Database"  ResizeMode="NoResize" Topmost="True" WindowStyle="SingleBorderWindow" Height="900" Width="1000">
+    <Grid>
+
+        <Viewer:CrystalReportsViewer Name="Viewer" Width="1000" Height="900" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="0,0,-16,-55"/>
+
+    </Grid>
+</Window>

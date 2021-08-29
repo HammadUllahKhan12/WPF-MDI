@@ -1,0 +1,179 @@
+D:\Products\Customer Management System [SQLite]\Customer Management System\Customer Management System\bin\Debug\Libraries\x64\SQLite.Interop.dll
+D:\Products\Customer Management System [SQLite]\Customer Management System\Customer Management System\bin\Debug\Libraries\x86\SQLite.Interop.dll
+D:\Products\Customer Management System [SQLite]\Customer Management System\Customer Management System\bin\Debug\Libraries\System.Data.SQLite.dll
+D:\Products\Customer Management System [SQLite]\Customer Management System\Customer Management System\bin\Debug\Libraries\WPF.MDI.dll
+D:\Products\Customer Management System [SQLite]\Customer Management System\Customer Management System\bin\Debug\Customer Management System.exe.config
+D:\Products\Customer Management System [SQLite]\Customer Management System\Customer Management System\bin\Debug\Customer Management System.exe
+D:\Products\Customer Management System [SQLite]\Customer Management System\Customer Management System\bin\Debug\Customer Management System.pdb
+D:\Products\Customer Management System [SQLite]\Customer Management System\Customer Management System\bin\Debug\System.Data.SQLite.dll
+D:\Products\Customer Management System [SQLite]\Customer Management System\Customer Management System\bin\Debug\WPF.MDI.dll
+D:\Products\Customer Management System [SQLite]\Customer Management System\Customer Management System\obj\Debug\Customer Management System.csprojResolveAssemblyReference.cache
+D:\Products\Customer Management System [SQLite]\Customer Management System\Customer Management System\obj\Debug\UserInterface\UserControls\MainWindow.baml
+D:\Products\Customer Management System [SQLite]\Customer Management System\Customer Management System\obj\Debug\UserInterface\UserControls\ucDealerReport.baml
+D:\Products\Customer Management System [SQLite]\Customer Management System\Customer Management System\obj\Debug\UserInterface\UserControls\ucNewDealer.baml
+D:\Products\Customer Management System [SQLite]\Customer Management System\Customer Management System\obj\Debug\UserInterface\UserControls\ucNewUser.baml
+D:\Products\Customer Management System [SQLite]\Customer Management System\Customer Management System\obj\Debug\UserInterface\UserControls\ucPendings.baml
+D:\Products\Customer Management System [SQLite]\Customer Management System\Customer Management System\obj\Debug\UserInterface\UserControls\ucReportViewer.baml
+D:\Products\Customer Management System [SQLite]\Customer Management System\Customer Management System\obj\Debug\UserInterface\UserControls\ucTransaction.baml
+D:\Products\Customer Management System [SQLite]\Customer Management System\Customer Management System\obj\Debug\UserInterface\UserControls\ucUserReport.baml
+D:\Products\Customer Management System [SQLite]\Customer Management System\Customer Management System\obj\Debug\UserInterface\UserControls\winAccountDetails.baml
+D:\Products\Customer Management System [SQLite]\Customer Management System\Customer Management System\obj\Debug\UserInterface\UserControls\winChangePassword.baml
+D:\Products\Customer Management System [SQLite]\Customer Management System\Customer Management System\obj\Debug\UserInterface\UserControls\winDetailsPopup.baml
+D:\Products\Customer Management System [SQLite]\Customer Management System\Customer Management System\obj\Debug\UserInterface\UserControls\winReportParameters.baml
+D:\Products\Customer Management System [SQLite]\Customer Management System\Customer Management System\obj\Debug\UserInterface\UserControls\winSearchPopup.baml
+D:\Products\Customer Management System [SQLite]\Customer Management System\Customer Management System\obj\Debug\winLogin.baml
+D:\Products\Customer Management System [SQLite]\Customer Management System\Customer Management System\obj\Debug\App.baml
+D:\Products\Customer Management System [SQLite]\Customer Management System\Customer Management System\obj\Debug\UserInterface\UserControls\MainWindow.g.cs
+D:\Products\Customer Management System [SQLite]\Customer Management System\Customer Management System\obj\Debug\UserInterface\UserControls\ucDealerReport.g.cs
+D:\Products\Customer Management System [SQLite]\Customer Management System\Customer Management System\obj\Debug\UserInterface\UserControls\ucMonthlyReport.g.cs
+D:\Products\Customer Management System [SQLite]\Customer Management System\Customer Management System\obj\Debug\UserInterface\UserControls\ucNewDealer.g.cs
+D:\Products\Customer Management System [SQLite]\Customer Management System\Customer Management System\obj\Debug\UserInterface\UserControls\ucNewUser.g.cs
+D:\Products\Customer Management System [SQLite]\Customer Management System\Customer Management System\obj\Debug\UserInterface\UserControls\ucPendings.g.cs
+D:\Products\Customer Management System [SQLite]\Customer Management System\Customer Management System\obj\Debug\UserInterface\UserControls\ucReportViewer.g.cs
+D:\Products\Customer Management System [SQLite]\Customer Management System\Customer Management System\obj\Debug\UserInterface\UserControls\ucTransaction.g.cs
+D:\Products\Customer Management System [SQLite]\Customer Management System\Customer Management System\obj\Debug\UserInterface\UserControls\ucUserReport.g.cs
+D:\Products\Customer Management System [SQLite]\Customer Management System\Customer Management System\obj\Debug\UserInterface\UserControls\winAccountDetails.g.cs
+D:\Products\Customer Management System [SQLite]\Customer Management System\Customer Management System\obj\Debug\UserInterface\UserControls\winChangePassword.g.cs
+D:\Products\Customer Management System [SQLite]\Customer Management System\Customer Management System\obj\Debug\UserInterface\UserControls\winDetailsPopup.g.cs
+D:\Products\Customer Management System [SQLite]\Customer Management System\Customer Management System\obj\Debug\UserInterface\UserControls\winReportParameters.g.cs
+D:\Products\Customer Management System [SQLite]\Customer Management System\Customer Management System\obj\Debug\UserInterface\UserControls\winSearchPopup.g.cs
+D:\Products\Customer Management System [SQLite]\Customer Management System\Customer Management System\obj\Debug\winLogin.g.cs
+D:\Products\Customer Management System [SQLite]\Customer Management System\Customer Management System\obj\Debug\App.g.cs
+D:\Products\Customer Management System [SQLite]\Customer Management System\Customer Management System\obj\Debug\Customer Management System_Content.g.cs
+D:\Products\Customer Management System [SQLite]\Customer Management System\Customer Management System\obj\Debug\GeneratedInternalTypeHelper.g.cs
+D:\Products\Customer Management System [SQLite]\Customer Management System\Customer Management System\obj\Debug\Customer Management System_MarkupCompile.cache
+D:\Products\Customer Management System [SQLite]\Customer Management System\Customer Management System\obj\Debug\Customer Management System_MarkupCompile.lref
+D:\Products\Customer Management System [SQLite]\Customer Management System\Customer Management System\obj\Debug\UserInterface\UserControls\ucMonthlyReport.baml
+D:\Products\Customer Management System [SQLite]\Customer Management System\Customer Management System\obj\Debug\Customer Management System.g.resources
+D:\Products\Customer Management System [SQLite]\Customer Management System\Customer Management System\obj\Debug\Customer_Management_System.Properties.Resources.resources
+D:\Products\Customer Management System [SQLite]\Customer Management System\Customer Management System\obj\Debug\Customer Management System.csproj.GenerateResource.Cache
+D:\Products\Customer Management System [SQLite]\Customer Management System\Customer Management System\obj\Debug\RdlCompile.cache
+D:\Products\Customer Management System [SQLite]\Customer Management System\Customer Management System\obj\Debug\RdlCompile.compiled
+D:\Products\Customer Management System [SQLite]\Customer Management System\Customer Management System\obj\Debug\Customer Management System.exe
+D:\Products\Customer Management System [SQLite]\Customer Management System\Customer Management System\obj\Debug\Customer Management System.pdb
+D:\Software Products\Customer Management System [SQLite]\Customer Management System\Customer Management System\bin\Debug\Customer Management System.exe.config
+D:\Software Products\Customer Management System [SQLite]\Customer Management System\Customer Management System\obj\Debug\Customer Management System.exe
+D:\Software Products\Customer Management System [SQLite]\Customer Management System\Customer Management System\obj\Debug\Customer Management System.pdb
+D:\Software Products\Customer Management System [SQLite]\Customer Management System\Customer Management System\obj\Debug\Customer Management System.csprojResolveAssemblyReference.cache
+D:\Software Products\Customer Management System [SQLite]\Customer Management System\Customer Management System\obj\Debug\UserInterface\UserControls\MainWindow.baml
+D:\Software Products\Customer Management System [SQLite]\Customer Management System\Customer Management System\obj\Debug\UserInterface\UserControls\ucDealerReport.baml
+D:\Software Products\Customer Management System [SQLite]\Customer Management System\Customer Management System\obj\Debug\UserInterface\UserControls\ucNewDealer.baml
+D:\Software Products\Customer Management System [SQLite]\Customer Management System\Customer Management System\obj\Debug\UserInterface\UserControls\ucNewUser.baml
+D:\Software Products\Customer Management System [SQLite]\Customer Management System\Customer Management System\obj\Debug\UserInterface\UserControls\ucPendings.baml
+D:\Software Products\Customer Management System [SQLite]\Customer Management System\Customer Management System\obj\Debug\UserInterface\UserControls\ucTransaction.baml
+D:\Software Products\Customer Management System [SQLite]\Customer Management System\Customer Management System\obj\Debug\UserInterface\UserControls\ucUserReport.baml
+D:\Software Products\Customer Management System [SQLite]\Customer Management System\Customer Management System\obj\Debug\UserInterface\UserControls\winAccountDetails.baml
+D:\Software Products\Customer Management System [SQLite]\Customer Management System\Customer Management System\obj\Debug\UserInterface\UserControls\winChangePassword.baml
+D:\Software Products\Customer Management System [SQLite]\Customer Management System\Customer Management System\obj\Debug\UserInterface\UserControls\winDetailsPopup.baml
+D:\Software Products\Customer Management System [SQLite]\Customer Management System\Customer Management System\obj\Debug\UserInterface\UserControls\winReportParameters.baml
+D:\Software Products\Customer Management System [SQLite]\Customer Management System\Customer Management System\obj\Debug\UserInterface\UserControls\winSearchPopup.baml
+D:\Software Products\Customer Management System [SQLite]\Customer Management System\Customer Management System\obj\Debug\winLogin.baml
+D:\Software Products\Customer Management System [SQLite]\Customer Management System\Customer Management System\obj\Debug\App.baml
+D:\Software Products\Customer Management System [SQLite]\Customer Management System\Customer Management System\obj\Debug\UserInterface\UserControls\MainWindow.g.cs
+D:\Software Products\Customer Management System [SQLite]\Customer Management System\Customer Management System\obj\Debug\UserInterface\UserControls\ucDealerReport.g.cs
+D:\Software Products\Customer Management System [SQLite]\Customer Management System\Customer Management System\obj\Debug\UserInterface\UserControls\ucMonthlyReport.g.cs
+D:\Software Products\Customer Management System [SQLite]\Customer Management System\Customer Management System\obj\Debug\UserInterface\UserControls\ucNewDealer.g.cs
+D:\Software Products\Customer Management System [SQLite]\Customer Management System\Customer Management System\obj\Debug\UserInterface\UserControls\ucNewUser.g.cs
+D:\Software Products\Customer Management System [SQLite]\Customer Management System\Customer Management System\obj\Debug\UserInterface\UserControls\ucPendings.g.cs
+D:\Software Products\Customer Management System [SQLite]\Customer Management System\Customer Management System\obj\Debug\UserInterface\UserControls\ucTransaction.g.cs
+D:\Software Products\Customer Management System [SQLite]\Customer Management System\Customer Management System\obj\Debug\UserInterface\UserControls\ucUserReport.g.cs
+D:\Software Products\Customer Management System [SQLite]\Customer Management System\Customer Management System\obj\Debug\UserInterface\UserControls\winAccountDetails.g.cs
+D:\Software Products\Customer Management System [SQLite]\Customer Management System\Customer Management System\obj\Debug\UserInterface\UserControls\winChangePassword.g.cs
+D:\Software Products\Customer Management System [SQLite]\Customer Management System\Customer Management System\obj\Debug\UserInterface\UserControls\winDetailsPopup.g.cs
+D:\Software Products\Customer Management System [SQLite]\Customer Management System\Customer Management System\obj\Debug\UserInterface\UserControls\winReportParameters.g.cs
+D:\Software Products\Customer Management System [SQLite]\Customer Management System\Customer Management System\obj\Debug\UserInterface\UserControls\winSearchPopup.g.cs
+D:\Software Products\Customer Management System [SQLite]\Customer Management System\Customer Management System\obj\Debug\winLogin.g.cs
+D:\Software Products\Customer Management System [SQLite]\Customer Management System\Customer Management System\obj\Debug\App.g.cs
+D:\Software Products\Customer Management System [SQLite]\Customer Management System\Customer Management System\obj\Debug\Customer Management System_Content.g.cs
+D:\Software Products\Customer Management System [SQLite]\Customer Management System\Customer Management System\obj\Debug\GeneratedInternalTypeHelper.g.cs
+D:\Software Products\Customer Management System [SQLite]\Customer Management System\Customer Management System\obj\Debug\Customer Management System_MarkupCompile.cache
+D:\Software Products\Customer Management System [SQLite]\Customer Management System\Customer Management System\obj\Debug\Customer Management System_MarkupCompile.lref
+D:\Software Products\Customer Management System [SQLite]\Customer Management System\Customer Management System\obj\Debug\UserInterface\UserControls\ucReportViewer.baml
+D:\Software Products\Customer Management System [SQLite]\Customer Management System\Customer Management System\obj\Debug\UserInterface\UserControls\ucReportViewer.g.cs
+D:\Programs\Customer Management System\Customer Management System\Customer Management System\Customer Management System\bin\Debug\Customer Management System.exe.config
+D:\Programs\Customer Management System\Customer Management System\Customer Management System\Customer Management System\obj\Debug\Customer Management System.exe
+D:\Programs\Customer Management System\Customer Management System\Customer Management System\Customer Management System\obj\Debug\Customer Management System.pdb
+D:\Programs\Customer Management System\Customer Management System\Customer Management System\Customer Management System\obj\Debug\UserInterface\UserControls\MainWindow.baml
+D:\Programs\Customer Management System\Customer Management System\Customer Management System\Customer Management System\obj\Debug\UserInterface\UserControls\ucNewDealer.baml
+D:\Programs\Customer Management System\Customer Management System\Customer Management System\Customer Management System\obj\Debug\UserInterface\UserControls\ucPendings.baml
+D:\Programs\Customer Management System\Customer Management System\Customer Management System\Customer Management System\obj\Debug\winLogin.baml
+D:\Programs\Customer Management System\Customer Management System\Customer Management System\Customer Management System\obj\Debug\App.baml
+D:\Programs\Customer Management System\Customer Management System\Customer Management System\Customer Management System\obj\Debug\UserInterface\UserControls\MainWindow.g.cs
+D:\Programs\Customer Management System\Customer Management System\Customer Management System\Customer Management System\obj\Debug\UserInterface\UserControls\ucNewDealer.g.cs
+D:\Programs\Customer Management System\Customer Management System\Customer Management System\Customer Management System\obj\Debug\UserInterface\UserControls\ucPendings.g.cs
+D:\Programs\Customer Management System\Customer Management System\Customer Management System\Customer Management System\obj\Debug\winLogin.g.cs
+D:\Programs\Customer Management System\Customer Management System\Customer Management System\Customer Management System\obj\Debug\App.g.cs
+D:\Programs\Customer Management System\Customer Management System\Customer Management System\Customer Management System\obj\Debug\Customer Management System_Content.g.cs
+D:\Programs\Customer Management System\Customer Management System\Customer Management System\Customer Management System\obj\Debug\Customer Management System_MarkupCompile.cache
+D:\Programs\Customer Management System\Customer Management System\Customer Management System\Customer Management System\bin\Debug\Libraries\x64\SQLite.Interop.dll
+D:\Programs\Customer Management System\Customer Management System\Customer Management System\Customer Management System\bin\Debug\Libraries\x86\SQLite.Interop.dll
+D:\Programs\Customer Management System\Customer Management System\Customer Management System\Customer Management System\bin\Debug\Libraries\System.Data.SQLite.dll
+D:\Programs\Customer Management System\Customer Management System\Customer Management System\Customer Management System\bin\Debug\Libraries\WPF.MDI.dll
+D:\Programs\Customer Management System\Customer Management System\Customer Management System\Customer Management System\bin\Debug\Customer Management System.exe
+D:\Programs\Customer Management System\Customer Management System\Customer Management System\Customer Management System\bin\Debug\Customer Management System.pdb
+D:\Programs\Customer Management System\Customer Management System\Customer Management System\Customer Management System\bin\Debug\System.Data.SQLite.dll
+D:\Programs\Customer Management System\Customer Management System\Customer Management System\Customer Management System\bin\Debug\WPF.MDI.dll
+D:\Programs\Customer Management System\Customer Management System\Customer Management System\Customer Management System\obj\Debug\Customer Management System.g.resources
+D:\Programs\Customer Management System\Customer Management System\Customer Management System\Customer Management System\obj\Debug\Customer_Management_System.Properties.Resources.resources
+D:\Programs\Customer Management System\Customer Management System\Customer Management System\Customer Management System\obj\Debug\Customer Management System.csproj.GenerateResource.Cache
+D:\Programs\Customer Management System\Customer Management System\Customer Management System\Customer Management System\obj\Debug\Customer Management System.csprojResolveAssemblyReference.cache
+F:\scoped_dir_824_20103\Customer Management System\Customer Management System\bin\Debug\Customer Management System.exe.config
+F:\scoped_dir_824_20103\Customer Management System\Customer Management System\obj\Debug\Customer Management System.exe
+F:\scoped_dir_824_20103\Customer Management System\Customer Management System\obj\Debug\Customer Management System.pdb
+F:\scoped_dir_824_20103\Customer Management System\Customer Management System\bin\Debug\Libraries\x64\SQLite.Interop.dll
+F:\scoped_dir_824_20103\Customer Management System\Customer Management System\bin\Debug\Libraries\x86\SQLite.Interop.dll
+F:\scoped_dir_824_20103\Customer Management System\Customer Management System\bin\Debug\Libraries\System.Data.SQLite.dll
+F:\scoped_dir_824_20103\Customer Management System\Customer Management System\bin\Debug\Libraries\WPF.MDI.dll
+F:\scoped_dir_824_20103\Customer Management System\Customer Management System\bin\Debug\Customer Management System.exe
+F:\scoped_dir_824_20103\Customer Management System\Customer Management System\bin\Debug\Customer Management System.pdb
+F:\scoped_dir_824_20103\Customer Management System\Customer Management System\bin\Debug\System.Data.SQLite.dll
+F:\scoped_dir_824_20103\Customer Management System\Customer Management System\bin\Debug\WPF.MDI.dll
+F:\scoped_dir_824_20103\Customer Management System\Customer Management System\obj\Debug\Customer Management System.csprojResolveAssemblyReference.cache
+F:\scoped_dir_824_20103\Customer Management System\Customer Management System\obj\Debug\UserInterface\UserControls\MainWindow.baml
+F:\scoped_dir_824_20103\Customer Management System\Customer Management System\obj\Debug\UserInterface\UserControls\ucNewDealer.baml
+F:\scoped_dir_824_20103\Customer Management System\Customer Management System\obj\Debug\UserInterface\UserControls\ucPendings.baml
+F:\scoped_dir_824_20103\Customer Management System\Customer Management System\obj\Debug\winLogin.baml
+F:\scoped_dir_824_20103\Customer Management System\Customer Management System\obj\Debug\App.baml
+F:\scoped_dir_824_20103\Customer Management System\Customer Management System\obj\Debug\UserInterface\UserControls\MainWindow.g.cs
+F:\scoped_dir_824_20103\Customer Management System\Customer Management System\obj\Debug\UserInterface\UserControls\ucNewDealer.g.cs
+F:\scoped_dir_824_20103\Customer Management System\Customer Management System\obj\Debug\UserInterface\UserControls\ucPendings.g.cs
+F:\scoped_dir_824_20103\Customer Management System\Customer Management System\obj\Debug\winLogin.g.cs
+F:\scoped_dir_824_20103\Customer Management System\Customer Management System\obj\Debug\App.g.cs
+F:\scoped_dir_824_20103\Customer Management System\Customer Management System\obj\Debug\Customer Management System_Content.g.cs
+F:\scoped_dir_824_20103\Customer Management System\Customer Management System\obj\Debug\Customer Management System_MarkupCompile.cache
+F:\scoped_dir_824_20103\Customer Management System\Customer Management System\obj\Debug\Customer Management System.g.resources
+F:\scoped_dir_824_20103\Customer Management System\Customer Management System\obj\Debug\Customer_Management_System.Properties.Resources.resources
+F:\scoped_dir_824_20103\Customer Management System\Customer Management System\obj\Debug\Customer Management System.csproj.GenerateResource.Cache
+F:\scoped_dir_824_20103\Customer Management System\Customer Management System\obj\Debug\UserInterface\UserControls\sale.baml
+F:\scoped_dir_824_20103\Customer Management System\Customer Management System\obj\Debug\UserInterface\UserControls\sale.g.cs
+F:\scoped_dir_824_20103\Customer Management System\Customer Management System\obj\Debug\UserInterface\UserControls\Password.baml
+F:\scoped_dir_824_20103\Customer Management System\Customer Management System\obj\Debug\UserInterface\UserControls\Password.g.cs
+F:\scoped_dir_824_20103\Customer Management System\Customer Management System\obj\Debug\UserInterface\UserControls\supplier.baml
+F:\scoped_dir_824_20103\Customer Management System\Customer Management System\obj\Debug\UserInterface\UserControls\supplier.g.cs
+F:\scoped_dir_824_20103\Customer Management System\Customer Management System\obj\Debug\UserInterface\UserControls\User_report.baml
+F:\scoped_dir_824_20103\Customer Management System\Customer Management System\obj\Debug\UserInterface\UserControls\User_report.g.cs
+F:\scoped_dir_824_20103\Customer Management System\Customer Management System\obj\Debug\UserInterface\UserControls\del_user.baml
+F:\scoped_dir_824_20103\Customer Management System\Customer Management System\obj\Debug\UserInterface\UserControls\del_user.g.cs
+F:\scoped_dir_824_20103\Customer Management System\Customer Management System\obj\Debug\UserInterface\UserControls\reset_pass.baml
+F:\scoped_dir_824_20103\Customer Management System\Customer Management System\obj\Debug\UserInterface\UserControls\reset_pass.g.cs
+F:\scoped_dir_824_20103\Customer Management System\Customer Management System\obj\Debug\UserInterface\UserControls\user_profile.baml
+F:\scoped_dir_824_20103\Customer Management System\Customer Management System\obj\Debug\UserInterface\UserControls\user_profile.g.cs
+F:\scoped_dir_824_20103\Customer Management System\Customer Management System\bin\Debug\Customer Management System.exe.manifest
+F:\scoped_dir_824_20103\Customer Management System\Customer Management System\bin\Debug\Customer Management System.application
+F:\scoped_dir_824_20103\Customer Management System\Customer Management System\obj\Debug\Customer Management System.exe.manifest
+F:\scoped_dir_824_20103\Customer Management System\Customer Management System\obj\Debug\Customer Management System.application
+F:\scoped_dir_824_20103\Customer Management System\Customer Management System\obj\Debug\UserInterface\UserControls\supp2.baml
+F:\scoped_dir_824_20103\Customer Management System\Customer Management System\obj\Debug\UserInterface\UserControls\supp2.g.cs
+F:\scoped_dir_824_20103\Customer Management System\Customer Management System\obj\Debug\UserInterface\UserControls\Find_user.baml
+F:\scoped_dir_824_20103\Customer Management System\Customer Management System\obj\Debug\UserInterface\UserControls\Find_user.g.cs
+F:\scoped_dir_824_20103\Customer Management System\Customer Management System\obj\Debug\Window1.baml
+F:\scoped_dir_824_20103\Customer Management System\Customer Management System\obj\Debug\Window1.g.cs
+F:\scoped_dir_824_20103\Customer Management System\Customer Management System\obj\Debug\Customer Management System_MarkupCompile.lref
+F:\scoped_dir_824_20103\Customer Management System\Customer Management System\obj\Debug\Window2.baml
+F:\scoped_dir_824_20103\Customer Management System\Customer Management System\obj\Debug\Window2.g.cs
+F:\scoped_dir_824_20103\Customer Management System\Customer Management System\obj\Debug\Window3.baml
+F:\scoped_dir_824_20103\Customer Management System\Customer Management System\obj\Debug\Window4.baml
+F:\scoped_dir_824_20103\Customer Management System\Customer Management System\obj\Debug\Window3.g.cs
+F:\scoped_dir_824_20103\Customer Management System\Customer Management System\obj\Debug\Window4.g.cs
+F:\scoped_dir_824_20103\Customer Management System\Customer Management System\obj\Debug\UserInterface\UserControls\rep_inv.baml
+F:\scoped_dir_824_20103\Customer Management System\Customer Management System\obj\Debug\UserInterface\UserControls\rep_inv.g.cs

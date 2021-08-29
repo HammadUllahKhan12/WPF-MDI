@@ -1,0 +1,215 @@
+﻿<Window x:Class="UserInterface.UserControls.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:mdi="clr-namespace:WPF.MDI;assembly=WPF.MDI"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Inventory Management System" WindowState="Maximized"
+        Icon="/Customer Management System;component/UserInterface/Images/icon.ico" Closing="Window_Closing" MinWidth="800" MinHeight="500">
+
+    <Grid x:Name="modalGrid" Height="Auto" Width="Auto">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <!--for Ribbon-->
+            <RowDefinition Height="*"/>
+            <!--for MDI container-->
+            <RowDefinition MaxHeight="50" Height="Auto" Name="rowNotificationPanel"/>
+            <!--notification panel-->
+            <RowDefinition Height="30"/>
+            <!--for StatusBar-->
+        </Grid.RowDefinitions>
+
+        <Grid Grid.Row="0">
+            <Ribbon Name="myRibbon"  FontStyle="Normal" FontWeight="Normal" Foreground="Black" Background="LightBlue" >
+                <!-- Help Pane, located at the right-hand side -->
+                <Ribbon.HelpPaneContent>
+                    <RibbonButton SmallImageSource="F:\scoped_dir_824_20103\Customer Management System\Customer Management System\UserInterface\Images\help12.ico" Click="Notify_Click"/>
+
+                </Ribbon.HelpPaneContent>
+
+                <!--<Ribbon.HelpPaneContent>
+                    <RibbonButton SmallImageSource="F:\scoped_dir_824_20103\Customer Management System\Customer Management System\UserInterface\Images\help12.ico" Click="Notify_Click"/>-->
+
+                <!--</Ribbon.HelpPaneContent>-->
+
+
+                 <!--Quick Access Toolbar - located at the upper-left corner 
+                <Ribbon.QuickAccessToolBar>
+                    <RibbonQuickAccessToolBar>
+                        <RibbonButton x:Name ="Save" SmallImageSource="Images\save.png" />
+                        <RibbonSplitButton x:Name ="Undo" SmallImageSource="Images\undo.png">
+                            <RibbonSplitMenuItem Header="Undo 1" />
+                            <RibbonSplitMenuItem Header="Undo 2" />
+                            <RibbonSplitMenuItem Header="Undo 3" />
+                        </RibbonSplitButton>
+                        <RibbonSplitButton x:Name="Redo" SmallImageSource="Images\redo.png" >
+                            <RibbonSplitMenuItem Header="Redo 1" />
+                            <RibbonSplitMenuItem Header="Redo 2" />
+                        </RibbonSplitButton>
+                    </RibbonQuickAccessToolBar>
+                </Ribbon.QuickAccessToolBar>-->
+
+                <!-- Application Menu -->
+                <Ribbon.ApplicationMenu>
+                    <RibbonApplicationMenu KeyTip="F">
+                        <RibbonApplicationMenuItem Header="Lock Application" ImageSource="F:\scoped_dir_824_20103\Customer Management System\Customer Management System\UserInterface\Images\lock_app.gif" Click="btnLockApp_Click" KeyTip="L"/>
+                        <RibbonApplicationMenuItem Header="Logout" ImageSource="F:\scoped_dir_824_20103\Customer Management System\Customer Management System\UserInterface\Images\logout12.png" Click="btnLogout_Click" KeyTip="O"/>
+                        <RibbonApplicationMenuItem Header="Help" ImageSource="F:\scoped_dir_824_20103\Customer Management System\Customer Management System\UserInterface\Images\help_main_12.png" Click="btnHelp_Click" KeyTip="H"/>
+                        <RibbonApplicationMenuItem Header="About" ImageSource="F:\scoped_dir_824_20103\Customer Management System\Customer Management System\UserInterface\Images\info12.png" Click="btnAbout_Click" KeyTip="A"/>
+                        <RibbonApplicationMenuItem Header="Exit" ImageSource="F:\scoped_dir_824_20103\Customer Management System\Customer Management System\UserInterface\Images\close_red.png" Click="btnExit_Click" KeyTip="E"/>
+                    </RibbonApplicationMenu>
+                </Ribbon.ApplicationMenu>
+                <!-- Ribbon Tab #1: Home -->
+                <RibbonTab Header="Home" KeyTip="H" Name="tabHome">
+                    <RibbonGroup Header="Start sale" Margin="0,1" Width="68" >
+                        <RibbonButton LargeImageSource="F:\scoped_dir_824_20103\Customer Management System\Customer Management System\UserInterface\Images\Graphicloads-100-Flat-Cart-add.ico" Label="Start Sale" Click="btnAddSale_Click" KeyTip="P"/>
+                    </RibbonGroup>
+                   
+                    <!--<RibbonGroup Header="Stocks " Margin="0,1" Width="69">
+                        <RibbonButton LargeImageSource="F:\scoped_dir_824_20103\Customer Management System\Customer Management System\UserInterface\Images\inven12.png" Label="Add new items" Click="btn_new_items_Click" KeyTip="P"/>
+                    </RibbonGroup>-->
+
+
+                </RibbonTab>
+                <RibbonTab Header="Home" KeyTip="H" Name="tab_Supplier_Home" >
+                    
+                    <RibbonGroup Header="Stocks " Margin="0,1" Width="146">
+                        <RibbonButton LargeImageSource="F:\scoped_dir_824_20103\Customer Management System\Customer Management System\UserInterface\Images\inven12.png" Label="Add new items" Click="btn_new_items_Click" KeyTip="P"/>
+                      
+                        <RibbonButton LargeImageSource="F:\scoped_dir_824_20103\Customer Management System\Customer Management System\UserInterface\Images\icon_fep_itad.png" Label="Update the Stocks" Click="btnAdditems_Click" KeyTip="P" Margin="10,0,-29,0"/>
+                    </RibbonGroup>
+                    <!--<RibbonGroup Header="Stocks " Margin="0,1" Width="69">
+                        <RibbonButton LargeImageSource="F:\scoped_dir_824_20103\Customer Management System\Customer Management System\UserInterface\Images\inven12.png" Label="Add new items" Click="btn_new_items_Click" KeyTip="P"/>
+                    </RibbonGroup>-->
+
+
+                </RibbonTab>
+
+                <RibbonTab Header="Settings" KeyTip="H" Name="Settings">
+                    <RibbonGroup Header="View Profile" Margin="0,1" Width="72">
+                        <RibbonButton LargeImageSource="F:\scoped_dir_824_20103\Customer Management System\Customer Management System\UserInterface\Images\U.png" Label="View Profile" Click="btn_profile_Click" KeyTip="P"/>
+                    </RibbonGroup>
+
+                    <RibbonGroup Header="Change Password">
+                        <!--<RibbonButton LargeImageSource="/Customer Management System;component/UserInterface/Images/addEmp.png" Label="User" Click="btnAddUser_Click" KeyTip="A" Name="rbAddUser"/>-->
+                        <RibbonButton LargeImageSource="/Customer Management System;component/UserInterface/Images/changepassword.png"  Label="Change Password" Click="btnChangePassword_Click" KeyTip="C"/>
+                    </RibbonGroup>
+
+
+                </RibbonTab>
+
+
+                <RibbonTab Header="User Management" KeyTip="U" Name="tabUserManagement">
+                    <!--<RibbonGroup x:Name="UserMangement" Header="Change Password">
+                        -->
+                    <!--<RibbonButton LargeImageSource="/Customer Management System;component/UserInterface/Images/addEmp.png" Label="User" Click="btnAddUser_Click" KeyTip="A" Name="rbAddUser"/>-->
+                    <!--
+                        <RibbonButton LargeImageSource="/Customer Management System;component/UserInterface/Images/changepassword.png"  Label="Change Password" Click="btnChangePassword_Click" KeyTip="C"/>
+                    </RibbonGroup>-->
+                    <RibbonGroup Header="Add User">
+                        <RibbonButton LargeImageSource="F:\scoped_dir_824_20103\Customer Management System\Customer Management System\UserInterface\Images\add_emp12.png" Label="Add User" Click="btnNewDealer_Click" KeyTip="N"/>
+                    </RibbonGroup>
+                    <RibbonGroup Header=" Remove User">
+                        <RibbonButton LargeImageSource="F:\scoped_dir_824_20103\Customer Management System\Customer Management System\UserInterface\Images\remove_emp12.png" Label="Remove User" Click="btn_delete_Click" KeyTip="D"/>
+                    </RibbonGroup>
+                    <RibbonGroup Header="Reset" >
+                        <RibbonButton LargeImageSource="F:\scoped_dir_824_20103\Customer Management System\Customer Management System\UserInterface\Images\forgot-pass-icon-18350.png" Label="Reset Password" Click="btn_reset_pass_Click" KeyTip="P"/>
+                    </RibbonGroup>
+                    <RibbonGroup Header="Find Employee" >
+                        <RibbonButton LargeImageSource="F:\scoped_dir_824_20103\Customer Management System\Customer Management System\UserInterface\Images\searchEmp.png" Label="Find Employee" Click="btn_find_pass_Click" KeyTip="Q"/>
+                    </RibbonGroup>
+
+                </RibbonTab>
+
+                <!--<RibbonTab Header="Employee Management" KeyTip="E">
+                    <RibbonGroup x:Name="EmployeeManagement" Header="Add / Remove">
+                        <RibbonButton LargeImageSource="/User Interface;component/Images/addEmp.png" Label="Add Employee" Click="btnAddEmployee_Click" KeyTip="A"/>
+                        <RibbonButton LargeImageSource="/User Interface;component/Images/removeuser.png" Label="Remove Employee" Click="btnRemoveEmployee_Click" KeyTip="R"/>
+                    </RibbonGroup>
+                </RibbonTab>-->
+                <RibbonTab Header="Reports" KeyTip="R" Name="tabReports">
+                    <RibbonGroup Header="Reports">
+                        <RibbonButton LargeImageSource="F:\scoped_dir_824_20103\Customer Management System\Customer Management System\UserInterface\Images\procurement1.png" Label="Inventory Report" Click="btn_CashReport_Click" KeyTip="D"/>
+                        <RibbonButton LargeImageSource="F:\scoped_dir_824_20103\Customer Management System\Customer Management System\UserInterface\Images\cust.png"  Label="Customer Record" Click="btn_product_Report_Click" KeyTip="M"/>
+                        <RibbonButton LargeImageSource="/Customer Management System;component/UserInterface/Images/userloginreport.png"  Label="User Report" Click="btn_UserReport_Click" KeyTip="U"/>
+                    </RibbonGroup>
+                    <RibbonGroup Header="Crystal Reports">
+                        <RibbonButton LargeImageSource="F:\scoped_dir_824_20103\Customer Management System\Customer Management System\UserInterface\Images\cust.png" Label="Customer Report" Click="btnSaveDealerReport_Click" KeyTip="S"/>
+                        <RibbonButton LargeImageSource="F:\scoped_dir_824_20103\Customer Management System\Customer Management System\UserInterface\Images\procurement1.png"  Label="Inventory Report" Click="btnSaveMonthlyReport_Click" KeyTip="A"/>
+                        <RibbonButton LargeImageSource="/Customer Management System;component/UserInterface/Images/userloginreport.png"  Label="User Report" Click="btnSaveUserReport_Click" KeyTip="U"/>
+                    </RibbonGroup>
+                </RibbonTab>
+                <RibbonTab Header="Database Settings" KeyTip="H" Name="tabdatabase">
+                    <RibbonGroup Header="User Databases">
+                        <RibbonButton LargeImageSource="F:\scoped_dir_824_20103\Customer Management System\Customer Management System\UserInterface\Images\deleteallusers.png" Label="Reset Userdatabase" Click="btnDeleteAllDealers_Click" KeyTip="D"/>
+                    </RibbonGroup>
+
+                    <RibbonGroup Header="Product Database">
+                        <RibbonButton LargeImageSource="F:\scoped_dir_824_20103\Customer Management System\Customer Management System\UserInterface\Images\reset_database.png" Label="Reset Product Database"  Click="btnDelete_product_Click" KeyTip="t"/>
+                    </RibbonGroup>
+
+                    <RibbonGroup Header="Customer Database">
+                        <RibbonButton LargeImageSource="F:\scoped_dir_824_20103\Customer Management System\Customer Management System\UserInterface\Images\cust.png" Label="Reset Customer Database" Click="btnDelete_customer_Click" KeyTip="u"/>
+                    </RibbonGroup>
+
+                </RibbonTab>
+                <!--<RibbonTab Header="Database Settings" KeyTip="S" Name="tabSettings">
+                    <RibbonGroup Header="Databases">
+                        <RibbonButton LargeImageSource="F:\scoped_dir_824_20103\Customer Management System\Customer Management System\UserInterface\Images\deleteallusers.png" Label="Reset Userdatabase" Click="btnDeleteAllDealers_Click" KeyTip="D"/>
+                        -->
+                <!--<RibbonButton LargeImageSource="/Customer Management System;component/UserInterface/Images/deleteallusers.png" Label="All Users" Click="btnDeleteAllUsers_Click" KeyTip="U"/>
+                        <RibbonButton LargeImageSource="/Customer Management System;component/UserInterface/Images/deletealltransactions.png" Label="All Transactions" Click="btnDeleteAllTransactions_Click" KeyTip="T"/>
+                        <RibbonButton LargeImageSource="/Customer Management System;component/UserInterface/Images/deleteuserlogindata.png" Label="Login Details" Click="btnDeleteAllLoginDetails_Click" KeyTip="L"/>-->
+                <!--<RibbonButton LargeImageSource="/User Interface;component/Images/cleandatabase.png" Label="Clean Database" Click="btnCleanDatabase_Click" KeyTip="C"/>-->
+                <!--
+                    </RibbonGroup>
+                    -->
+                <!--<RibbonGroup Header="Close Ledgers">
+                        <RibbonButton LargeImageSource="/User Interface;component/Images/closeledgers.png" Label="Close All Ledgers" Click="btnCloseAllLedgers_Click" KeyTip="C"/>
+                    </RibbonGroup>-->
+                <!--
+                </RibbonTab>-->
+                <RibbonTab Header="Windows" KeyTip="W" Name="tabWindows">
+                    <RibbonGroup Header="Arrange Windows">
+                        <RibbonButton LargeImageSource="/Customer Management System;component/UserInterface/Images/horizontal.png" Label="Horizontal" Click="btnHorizontal_Click" KeyTip="H"/>
+                        <RibbonButton LargeImageSource="/Customer Management System;component/UserInterface/Images/vertical.png"  Label="Vertical" Click="btnVertical_Click" KeyTip="V"/>
+                        <RibbonButton LargeImageSource="/Customer Management System;component/UserInterface/Images/cascade.png"  Label="Cascade" Click="btnCascade_Click" KeyTip="C"/>
+                        <RibbonButton LargeImageSource="/Customer Management System;component/UserInterface/Images/closeallwindows.png"  Label="Close All" Click="btnCloseAllWindows_Click" KeyTip="X"/>
+                    </RibbonGroup>
+                    <RibbonGroup Header="Theme">
+                        <RibbonMenuButton Label="Select Theme" LargeImageSource="/Customer Management System;component/UserInterface/Images/changetheme.png">
+                            <RibbonMenuItem Header="Aero" Click="btnThemeAero_Click"></RibbonMenuItem>
+                            <RibbonMenuItem Header="Luna" Click="btnThemeLuna_Click"></RibbonMenuItem>
+                            <RibbonMenuItem Header="Generic" Click="btnThemeGeneric_Click"></RibbonMenuItem>
+                        </RibbonMenuButton>
+                    </RibbonGroup>
+                </RibbonTab>
+            </Ribbon>
+        </Grid>
+
+
+        <!--MDI container-->
+        <mdi:MdiContainer Name="Container" Grid.Row="1" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" HorizontalContentAlignment="Center"
+                          VerticalContentAlignment="Center" Visibility="Visible" Loaded="Container_Loaded" Margin="0,0,0,25" Grid.RowSpan="3">
+            <mdi:MdiContainer.Background>
+                <ImageBrush ImageSource="F:\scoped_dir_824_20103\Customer Management System\Customer Management System\UserInterface\Images\logo01.png"/>
+            </mdi:MdiContainer.Background>
+        </mdi:MdiContainer>
+
+        <!--Notification Panel-->
+        <DockPanel Grid.Row="2" Background="SeaGreen" Name="NotificationPanel" Visibility="Collapsed">
+            <Button DockPanel.Dock="Right" Width="20" Height="20" Margin="5" Name="btnHideNotification" Click="btnHideNotification_MouseLeftButtonDown">
+                <Button.Content>
+                    <Image Source="/Customer Management System;component/UserInterface/Images/close24.png"></Image>
+                </Button.Content>
+            </Button>
+            <TextBlock DockPanel.Dock="Left" Name="txtNotificationMsg" FontFamily="Calibri" FontSize="14" TextWrapping="WrapWithOverflow" HorizontalAlignment="Left" VerticalAlignment="Center"></TextBlock>
+        </DockPanel>
+
+        <!--StatusBar-->
+        <Grid Grid.Row="3" Background="SkyBlue" VerticalAlignment="Bottom" Height="30">
+            <DockPanel Margin="10,0,-10,0">
+                <Label Content="Designed and Developed by :: Team Prey " DockPanel.Dock="Right" Foreground="Black" FontWeight="Medium" Width="245" />
+                <Label Name="txtUserName" DockPanel.Dock="Left" FontWeight="Medium"></Label>
+            </DockPanel>
+        </Grid>
+    </Grid>
+</Window>

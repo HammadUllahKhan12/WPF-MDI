@@ -1,0 +1,16 @@
+﻿<UserControl x:Class="UserInterface.UserControls.del_user"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" 
+             d:DesignHeight="437.313" d:DesignWidth="700">
+    <Grid Margin="57,0,-302,-37">
+        <Label Content="User Name" HorizontalAlignment="Left" Margin="229,142,0,0" VerticalAlignment="Top"/>
+        <Label Content="User Type" HorizontalAlignment="Left" Margin="229,197,0,0" VerticalAlignment="Top" Width="69"/>
+        <TextBox HorizontalAlignment="Left" Name="txt_username" Height="23" Margin="337,142,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="208" TextChanged="TextBox_TextChanged"/>
+        <TextBox HorizontalAlignment="Left" Name="user_type" Height="23" Margin="337,200,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="208" TextChanged="user_type_TextChanged"/>
+        <Button Content="Delete User" HorizontalAlignment="Left" Margin="384,280,0,0" VerticalAlignment="Top" Width="85" Height="37" RenderTransformOrigin="0.419,0.473" Click="Button_Click"/>
+
+    </Grid>
+</UserControl>

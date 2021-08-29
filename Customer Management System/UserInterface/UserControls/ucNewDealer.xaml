@@ -1,0 +1,92 @@
+﻿<UserControl x:Class="UserInterface.UserControls.ucNewDealer"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:sys="clr-namespace:System;assembly=mscorlib"
+             Height="Auto" Width="Auto">
+
+    <Grid HorizontalAlignment="Center" Height="365" Width="885">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
+
+        <StackPanel Grid.Row="0" Orientation="Horizontal" HorizontalAlignment="Left" Margin="5">
+            
+        </StackPanel>
+
+        <StackPanel Grid.Row="1" Orientation="Horizontal" HorizontalAlignment="Center" Margin="5">
+            <GroupBox Header="" Width="423">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"></RowDefinition>
+                        <RowDefinition Height="Auto"></RowDefinition>
+                        <RowDefinition Height="Auto"></RowDefinition>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="Auto"></ColumnDefinition>
+                        <ColumnDefinition Width="Auto"></ColumnDefinition>
+                    </Grid.ColumnDefinitions>
+                    <Label Grid.Column="0" Grid.Row="0" Content="Name" Style="{StaticResource MyLabel}"></Label>
+                    <TextBox Name="txt_Name" Grid.Column="1" Grid.Row="0" TextAlignment="Left" Style="{StaticResource MyTextBox}"></TextBox>
+                    <Label Grid.Column="0" Grid.Row="1" Content="Gender" Style="{StaticResource MyLabel}" RenderTransformOrigin="0.563,0.624"></Label>
+                    <TextBox Name="txt_gender" Grid.Column="1" Grid.Row="1" TextAlignment="Left" Style="{StaticResource MyTextBox}"></TextBox>
+                    <Label Grid.Column="0" Grid.Row="2" Content="Age" Style="{StaticResource MyLabel}"></Label>
+                    <TextBox Name="txt_age" Grid.Column="1" Grid.Row="2" TextAlignment="Left" Style="{StaticResource MyTextBox}"></TextBox>
+                </Grid>
+            </GroupBox>
+
+            <GroupBox Header="">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"></RowDefinition>
+                        <RowDefinition Height="Auto"></RowDefinition>
+                        <RowDefinition Height="Auto"></RowDefinition>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="Auto"></ColumnDefinition>
+                        <ColumnDefinition Width="Auto"></ColumnDefinition>
+                    </Grid.ColumnDefinitions>
+                    <Label Grid.Column="0" Grid.Row="0" Content="Mobile Number" Style="{StaticResource MyLabel}"></Label>
+                    <TextBox Name="txtMobileNumber" Grid.Column="1"  Grid.Row="0" MaxLength="11" Style="{StaticResource MyTextBox}" TextAlignment="Right" PreviewTextInput="txtMobileNumber_NumaricValidation" LostFocus="txtMobileNumber_LostFocus" Margin="5,4,5,6" TextChanged="txtMobileNumber_TextChanged" >
+                        <TextBox.BindingGroup>
+                            <BindingGroup/>
+                        </TextBox.BindingGroup>
+                    </TextBox>
+                    <Label Grid.Column="0" Grid.Row="1" Content="Usertype" Style="{StaticResource MyLabel}" Margin="10,37,0,-25" Grid.RowSpan="2"></Label>
+                    <Label Grid.Column="0" Grid.Row="1" Content="Salary" Style="{StaticResource MyLabel}" Margin="10,0,0,14" Grid.RowSpan="2"></Label>
+                    <TextBox Name="txt_salary" Grid.Column="1" Grid.Row="1" MaxLength="10" Style="{StaticResource MyTextBox}" TextAlignment="Right" PreviewTextInput="txtPhoneNumber_PreviewTextInput" LostFocus="txtPhoneNumber_LostFocus" Margin="5,0,5,12" Grid.RowSpan="2" Width="Auto"></TextBox>
+                    <TextBox Name="txt_usertype" Grid.Column="1" Grid.Row="2" MaxLength="10" Style="{StaticResource MyTextBox}" TextAlignment="Right" PreviewTextInput="txtPhoneNumber_PreviewTextInput" LostFocus="txtPhoneNumber_LostFocus" Margin="5,26,5,-24"></TextBox>
+                </Grid>
+            </GroupBox>
+        </StackPanel>
+        <StackPanel Grid.Row="2" Orientation="Horizontal" HorizontalAlignment="Center" Margin="5">
+            <GroupBox Header="" Width="368">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="Auto"/>
+                        <ColumnDefinition Width="Auto"/>
+                    </Grid.ColumnDefinitions>
+                    <Label Grid.Column="0" Grid.Row="0" Content="Password" Style="{StaticResource MyLabel}"/>
+                    <PasswordBox Name="pbPassword" MaxLength="20" Grid.Row="1" Style="{StaticResource MyPasswordBox}" Width="Auto" Grid.ColumnSpan="2" Margin="130,5,-214,5" />
+                    <Label Grid.Column="0" Grid.Row="1" Content="Renter Password" Style="{StaticResource MyLabel}"/>
+                    <PasswordBox Name="pb_renter_Password" MaxLength="20" Style="{StaticResource MyPasswordBox}" Width="Auto" Grid.ColumnSpan="2" Margin="130,6,-214,6" />
+                </Grid>
+            </GroupBox>
+        </StackPanel>
+
+        <StackPanel Grid.Row="3" Orientation="Horizontal" HorizontalAlignment="Center" Margin="5">
+            <Button Name="Default_Password" Style="{StaticResource MyButton}" Content="Add User Default Password" Click="btnCancel_Click_1" Width="163"></Button>
+            <Button Name="btnSaveNewDealer" Style="{StaticResource MyButton}" Content="Add User" Click="btnSaveNewDealer_Click" IsDefault="True" Width="150"></Button>
+            <!--<Button Name="btnEditDealer" Style="{StaticResource MyButton}" Content="Edit Information" Click="btnEditDealer_Click"></Button>-->
+        </StackPanel>
+
+    </Grid>
+</UserControl>
